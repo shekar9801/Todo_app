@@ -4,7 +4,6 @@ from datetime import datetime
 
 app = Flask(__name__)
 app.config['SQLALCHEMY_DATABASE_URI'] = "sqlite:///C:\\Users\\admin\\OneDrive - Talentpace\\Desktop\\Himalaya_Projects\\Todo_App\\todo.db"
-
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
 db = SQLAlchemy(app)
 
